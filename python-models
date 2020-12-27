@@ -1,1 +1,22 @@
+#1 Import all libraries that you need
 
+import pandas as pd
+import matlplotlib as mp
+
+#2 Import data 
+
+data_frame = pd.read_csv('file path.csv')
+
+#3 Data Understanding (.head() / .info() )
+
+data_frame.head()
+data_frame.info()
+
+#4 Data Cleaning (rename the columns / convert data type / choose columns that you want/remove rows that have null etc.)
+
+data_frame['column_1'] = 
+
+#5 Visualization (matplot library / seaborn library)
+
+#6  Print data output (to_csv('path file')
+df.to_csv('path file')
